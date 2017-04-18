@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D15B72B1EA089A800F8BE55 /* enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D15B72A1EA089A800F8BE55 /* enums.swift */; };
 		1D4D306D1E9F582300FD8B7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D306C1E9F582300FD8B7D /* AppDelegate.swift */; };
-		1D4D306F1E9F582300FD8B7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D306E1E9F582300FD8B7D /* ViewController.swift */; };
 		1D4D30721E9F582300FD8B7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4D30701E9F582300FD8B7D /* Main.storyboard */; };
 		1D4D30751E9F582300FD8B7D /* rotator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D30731E9F582300FD8B7D /* rotator.xcdatamodeld */; };
 		1D4D30771E9F582300FD8B7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D4D30761E9F582300FD8B7D /* Assets.xcassets */; };
 		1D4D307A1E9F582300FD8B7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4D30781E9F582300FD8B7D /* LaunchScreen.storyboard */; };
 		1D4D30851E9F582300FD8B7D /* rotatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D30841E9F582300FD8B7D /* rotatorTests.swift */; };
 		1D4D30901E9F582300FD8B7D /* rotatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D308F1E9F582300FD8B7D /* rotatorUITests.swift */; };
+		1D4D309E1E9F594500FD8B7D /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D309D1E9F594500FD8B7D /* UIViewExtensions.swift */; };
+		1D4D30A41E9F594F00FD8B7D /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D30A31E9F594F00FD8B7D /* ViewController3.swift */; };
+		1D4D30A61E9F595200FD8B7D /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D30A51E9F595200FD8B7D /* Timer.swift */; };
+		1D54D5B11EA5DF2D002A9A3F /* thumbImpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D54D5B01EA5DF2D002A9A3F /* thumbImpression.swift */; };
+		1D54D5B31EA5E295002A9A3F /* PasswordValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D54D5B21EA5E295002A9A3F /* PasswordValidation.swift */; };
+		5FF283F5E7FE8EFA60DAE372 /* Pods_rotatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FBDEF0760500CC4A31A4A1 /* Pods_rotatorUITests.framework */; };
+		A2CE348FBFA8662134D79B3D /* Pods_rotatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D9E59C5E2C687BAE5BC7AB /* Pods_rotatorTests.framework */; };
+		BF905F5CBAD03BEB6A57CC0A /* Pods_rotator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35EE2A768B46317101D5AEE2 /* Pods_rotator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0772513BDF160910B0F4A8C3 /* Pods-rotator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rotator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rotator/Pods-rotator.debug.xcconfig"; sourceTree = "<group>"; };
+		1D15B72A1EA089A800F8BE55 /* enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enums.swift; sourceTree = "<group>"; };
 		1D4D30691E9F582300FD8B7D /* rotator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rotator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D4D306C1E9F582300FD8B7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1D4D306E1E9F582300FD8B7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1D4D30711E9F582300FD8B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D4D30741E9F582300FD8B7D /* rotator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = rotator.xcdatamodel; sourceTree = "<group>"; };
 		1D4D30761E9F582300FD8B7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +58,19 @@
 		1D4D308B1E9F582300FD8B7D /* rotatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rotatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D4D308F1E9F582300FD8B7D /* rotatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotatorUITests.swift; sourceTree = "<group>"; };
 		1D4D30911E9F582300FD8B7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D4D309D1E9F594500FD8B7D /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = "../../SwiftRotateAnimation-master/SwiftRotateAnimation/UIViewExtensions.swift"; sourceTree = "<group>"; };
+		1D4D30A31E9F594F00FD8B7D /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController3.swift; path = "../../SwiftRotateAnimation-master/SwiftRotateAnimation/ViewController3.swift"; sourceTree = "<group>"; };
+		1D4D30A51E9F595200FD8B7D /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Timer.swift; path = "../../SwiftRotateAnimation-master/SwiftRotateAnimation/Timer.swift"; sourceTree = "<group>"; };
+		1D54D5B01EA5DF2D002A9A3F /* thumbImpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thumbImpression.swift; sourceTree = "<group>"; };
+		1D54D5B21EA5E295002A9A3F /* PasswordValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PasswordValidation.swift; path = ../../../.Trash/PasswordValidation.swift; sourceTree = "<group>"; };
+		35EE2A768B46317101D5AEE2 /* Pods_rotator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rotator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51FBDEF0760500CC4A31A4A1 /* Pods_rotatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rotatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6475D62B31600160879E9D3B /* Pods-rotatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rotatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-rotatorUITests/Pods-rotatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		839A9CFDDF90AB3BDCDF29F0 /* Pods-rotatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rotatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rotatorTests/Pods-rotatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA10B19CEE1C394CCCDD5061 /* Pods-rotator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rotator.release.xcconfig"; path = "Pods/Target Support Files/Pods-rotator/Pods-rotator.release.xcconfig"; sourceTree = "<group>"; };
+		B7D9E59C5E2C687BAE5BC7AB /* Pods_rotatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rotatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C08B58289333DEADA4F6CAA6 /* Pods-rotatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rotatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rotatorUITests/Pods-rotatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F521034DC2759807528D6BF0 /* Pods-rotatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rotatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-rotatorTests/Pods-rotatorTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF905F5CBAD03BEB6A57CC0A /* Pods_rotator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2CE348FBFA8662134D79B3D /* Pods_rotatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FF283F5E7FE8EFA60DAE372 /* Pods_rotatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D15B7291EA0898300F8BE55 /* Enumeration */ = {
+			isa = PBXGroup;
+			children = (
+				1D15B72A1EA089A800F8BE55 /* enums.swift */,
+			);
+			name = Enumeration;
+			sourceTree = "<group>";
+		};
 		1D4D30601E9F582300FD8B7D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +116,8 @@
 				1D4D30831E9F582300FD8B7D /* rotatorTests */,
 				1D4D308E1E9F582300FD8B7D /* rotatorUITests */,
 				1D4D306A1E9F582300FD8B7D /* Products */,
+				EB08579B7D31B4097DB36129 /* Pods */,
+				8495EC0AC14D44A7408AF5DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +134,10 @@
 		1D4D306B1E9F582300FD8B7D /* rotator */ = {
 			isa = PBXGroup;
 			children = (
-				1D4D306C1E9F582300FD8B7D /* AppDelegate.swift */,
-				1D4D306E1E9F582300FD8B7D /* ViewController.swift */,
-				1D4D30701E9F582300FD8B7D /* Main.storyboard */,
+				1D92AB1B1E9F9BAE00948262 /* MVC */,
+				1D92AB1F1E9F9BE900948262 /* Extensions */,
 				1D4D30761E9F582300FD8B7D /* Assets.xcassets */,
-				1D4D30781E9F582300FD8B7D /* LaunchScreen.storyboard */,
+				1D15B7291EA0898300F8BE55 /* Enumeration */,
 				1D4D307B1E9F582300FD8B7D /* Info.plist */,
 				1D4D30731E9F582300FD8B7D /* rotator.xcdatamodeld */,
 			);
@@ -128,6 +162,67 @@
 			path = rotatorUITests;
 			sourceTree = "<group>";
 		};
+		1D92AB1B1E9F9BAE00948262 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				1D92AB1E1E9F9BD200948262 /* View */,
+				1D92AB1C1E9F9BB500948262 /* ViewController */,
+			);
+			name = MVC;
+			sourceTree = "<group>";
+		};
+		1D92AB1C1E9F9BB500948262 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1D4D30A31E9F594F00FD8B7D /* ViewController3.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		1D92AB1E1E9F9BD200948262 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D4D30781E9F582300FD8B7D /* LaunchScreen.storyboard */,
+				1D4D30701E9F582300FD8B7D /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1D92AB1F1E9F9BE900948262 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1D4D30A51E9F595200FD8B7D /* Timer.swift */,
+				1D54D5B21EA5E295002A9A3F /* PasswordValidation.swift */,
+				1D4D309D1E9F594500FD8B7D /* UIViewExtensions.swift */,
+				1D4D306C1E9F582300FD8B7D /* AppDelegate.swift */,
+				1D54D5B01EA5DF2D002A9A3F /* thumbImpression.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		8495EC0AC14D44A7408AF5DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35EE2A768B46317101D5AEE2 /* Pods_rotator.framework */,
+				B7D9E59C5E2C687BAE5BC7AB /* Pods_rotatorTests.framework */,
+				51FBDEF0760500CC4A31A4A1 /* Pods_rotatorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB08579B7D31B4097DB36129 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0772513BDF160910B0F4A8C3 /* Pods-rotator.debug.xcconfig */,
+				AA10B19CEE1C394CCCDD5061 /* Pods-rotator.release.xcconfig */,
+				839A9CFDDF90AB3BDCDF29F0 /* Pods-rotatorTests.debug.xcconfig */,
+				F521034DC2759807528D6BF0 /* Pods-rotatorTests.release.xcconfig */,
+				C08B58289333DEADA4F6CAA6 /* Pods-rotatorUITests.debug.xcconfig */,
+				6475D62B31600160879E9D3B /* Pods-rotatorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D4D30941E9F582300FD8B7D /* Build configuration list for PBXNativeTarget "rotator" */;
 			buildPhases = (
+				501B8C38A8B1453005432176 /* [CP] Check Pods Manifest.lock */,
 				1D4D30651E9F582300FD8B7D /* Sources */,
 				1D4D30661E9F582300FD8B7D /* Frameworks */,
 				1D4D30671E9F582300FD8B7D /* Resources */,
+				680A634665FDCC000FD5DDAA /* [CP] Embed Pods Frameworks */,
+				402EDC2E34947FF4706BF03D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +250,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D4D30971E9F582300FD8B7D /* Build configuration list for PBXNativeTarget "rotatorTests" */;
 			buildPhases = (
+				A33E1E55D9604DF24BDEAFDC /* [CP] Check Pods Manifest.lock */,
 				1D4D307C1E9F582300FD8B7D /* Sources */,
 				1D4D307D1E9F582300FD8B7D /* Frameworks */,
 				1D4D307E1E9F582300FD8B7D /* Resources */,
+				B923559B40B8387E4CC4148B /* [CP] Embed Pods Frameworks */,
+				CFD623215647CD6C228379B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D4D309A1E9F582300FD8B7D /* Build configuration list for PBXNativeTarget "rotatorUITests" */;
 			buildPhases = (
+				50C098E48CC4F2378D38B80A /* [CP] Check Pods Manifest.lock */,
 				1D4D30871E9F582300FD8B7D /* Sources */,
 				1D4D30881E9F582300FD8B7D /* Frameworks */,
 				1D4D30891E9F582300FD8B7D /* Resources */,
+				05D2815D302453B6BC1C5E0E /* [CP] Embed Pods Frameworks */,
+				1E9517D5C309DED810F5826B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +361,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05D2815D302453B6BC1C5E0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rotatorUITests/Pods-rotatorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E9517D5C309DED810F5826B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rotatorUITests/Pods-rotatorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		402EDC2E34947FF4706BF03D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rotator/Pods-rotator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		501B8C38A8B1453005432176 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50C098E48CC4F2378D38B80A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		680A634665FDCC000FD5DDAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rotator/Pods-rotator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A33E1E55D9604DF24BDEAFDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B923559B40B8387E4CC4148B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rotatorTests/Pods-rotatorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFD623215647CD6C228379B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rotatorTests/Pods-rotatorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1D4D30651E9F582300FD8B7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1D4D30751E9F582300FD8B7D /* rotator.xcdatamodeld in Sources */,
-				1D4D306F1E9F582300FD8B7D /* ViewController.swift in Sources */,
+				1D54D5B31EA5E295002A9A3F /* PasswordValidation.swift in Sources */,
+				1D4D30A61E9F595200FD8B7D /* Timer.swift in Sources */,
+				1D54D5B11EA5DF2D002A9A3F /* thumbImpression.swift in Sources */,
+				1D4D30A41E9F594F00FD8B7D /* ViewController3.swift in Sources */,
+				1D4D309E1E9F594500FD8B7D /* UIViewExtensions.swift in Sources */,
+				1D15B72B1EA089A800F8BE55 /* enums.swift in Sources */,
 				1D4D306D1E9F582300FD8B7D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +661,7 @@
 		};
 		1D4D30951E9F582300FD8B7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0772513BDF160910B0F4A8C3 /* Pods-rotator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = rotator/Info.plist;
@@ -421,11 +669,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.code-brew.rotator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1D4D30961E9F582300FD8B7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA10B19CEE1C394CCCDD5061 /* Pods-rotator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = rotator/Info.plist;
@@ -433,11 +683,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.code-brew.rotator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		1D4D30981E9F582300FD8B7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 839A9CFDDF90AB3BDCDF29F0 /* Pods-rotatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +704,7 @@
 		};
 		1D4D30991E9F582300FD8B7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F521034DC2759807528D6BF0 /* Pods-rotatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +719,7 @@
 		};
 		1D4D309B1E9F582300FD8B7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C08B58289333DEADA4F6CAA6 /* Pods-rotatorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = rotatorUITests/Info.plist;
@@ -479,6 +733,7 @@
 		};
 		1D4D309C1E9F582300FD8B7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6475D62B31600160879E9D3B /* Pods-rotatorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = rotatorUITests/Info.plist;
@@ -509,6 +764,7 @@
 				1D4D30961E9F582300FD8B7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D4D30971E9F582300FD8B7D /* Build configuration list for PBXNativeTarget "rotatorTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +773,7 @@
 				1D4D30991E9F582300FD8B7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D4D309A1E9F582300FD8B7D /* Build configuration list for PBXNativeTarget "rotatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +782,7 @@
 				1D4D309C1E9F582300FD8B7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
