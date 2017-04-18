@@ -1,0 +1,887 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		377921D105317E36F97BC06E7443C131 /* Pods-rotatorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1133AB678FDF55F7839D0C86288DC0AB /* Pods-rotatorTests-dummy.m */; };
+		668A4BBBB1F1A92AB51F5E5E35E068C9 /* Pods-rotatorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1183EC26E754D37B6454650865B15652 /* Pods-rotatorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E1CC67C8D9C87CCB041F7322BA831E8 /* Pods-rotatorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8262DB05B8E90E1212980E57CFE8589F /* Pods-rotatorUITests-dummy.m */; };
+		791CA76D370ABEDB73E865B0311E1EBF /* PasswordInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1C65B3FC93A865862BE48D4A89A852 /* PasswordInputView.swift */; };
+		7A2FE2673870D4CF8E9ACB2DC5534794 /* PasswordContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6E563C977A318DAC9DDDCC0ABF5C3E /* PasswordContainerView.swift */; };
+		887A8FD7C3833404E2917C8A592A3F28 /* PasswordDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109A6029FE385EFFF1C874C0A2EC4F52 /* PasswordDotView.swift */; };
+		94FB3E40FAEFED03BD8045863EFC9F49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		97907AD747414310E99DDCAADFD51080 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		9E20C5DCC86B9F16094B4FA3C128185F /* SmileLock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C320D5C1F80F6B3566046D49AA13237E /* SmileLock-dummy.m */; };
+		ABB392BD92F06BCE6D13647482EE7930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48D163C3FD64DD4E4265DFC7BCD9AA8 /* Assets.xcassets */; };
+		C05ADC73CADA7A560FB8043C6A282A8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		CAAE738858DC0A6F529506BEB57571BA /* PasswordContainerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26411E81AE9B887693AEE1120B268082 /* PasswordContainerView.xib */; };
+		CB11ABF0E297D8FC7497037FCC29BD58 /* PasswordUIValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1F2188D2B060CE4B741AAA83BCE41 /* PasswordUIValidation.swift */; };
+		E85E51751ECA1400E370B6BBC83955DC /* Pods-rotator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4484C37BAA1BF023FD9669791836228 /* Pods-rotator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAA1DBD95241ECEC172B65885FD7B856 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		F906590AF620B06F2EC7B7D932FB1E5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		FA57DC8DA2700CB1B740951A8D2FA87B /* Pods-rotatorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2175E4BA9276B56A027C465F1D56701 /* Pods-rotatorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD2BFB68FF8154DC30C93FCA252F53BB /* Pods-rotator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7053D52FFB8E223B920F5F609458E643 /* Pods-rotator-dummy.m */; };
+		FD72425A8DEEF6A81407B9B83F081671 /* SmileLock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C0B939D5651050C195076275121651 /* SmileLock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F8ECB2F87F9DC286EFD939FE8C990FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BB0389C6A8E08A7150310F7D4A5C8D9;
+			remoteInfo = SmileLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		032A193934B902ACFE1EE72696427878 /* Pods-rotator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rotator.debug.xcconfig"; sourceTree = "<group>"; };
+		05D44D913012A2CB84E2E811C84D4C54 /* Pods-rotatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rotatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		109A6029FE385EFFF1C874C0A2EC4F52 /* PasswordDotView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordDotView.swift; path = SmileLock/Classes/PasswordDotView.swift; sourceTree = "<group>"; };
+		1133AB678FDF55F7839D0C86288DC0AB /* Pods-rotatorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-rotatorTests-dummy.m"; sourceTree = "<group>"; };
+		114F42510D7480EB5601D40DF7F6B4B1 /* Pods_rotator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_rotator.framework; path = "Pods-rotator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1183EC26E754D37B6454650865B15652 /* Pods-rotatorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-rotatorTests-umbrella.h"; sourceTree = "<group>"; };
+		1368E60A1C7171C37528324FF8DE22A1 /* Pods-rotatorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-rotatorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1FA27C45F913636105BAD88462C40DD3 /* Pods_rotatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_rotatorTests.framework; path = "Pods-rotatorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26411E81AE9B887693AEE1120B268082 /* PasswordContainerView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PasswordContainerView.xib; path = SmileLock/Assets/PasswordContainerView.xib; sourceTree = "<group>"; };
+		28198CCE71D25E99FB735027AD81C138 /* SmileLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SmileLock.framework; path = SmileLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C3286B49FB7ED882BFAA381D3FDA62 /* Pods-rotatorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-rotatorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35026ED57EBB2D3AAC22026E2E689E1F /* SmileLock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SmileLock.modulemap; sourceTree = "<group>"; };
+		47B75439A06E028AD74A746A4756E91B /* Pods-rotatorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-rotatorUITests.modulemap"; sourceTree = "<group>"; };
+		49793A8625E8CC1C1A888C5C767423F8 /* SmileLock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmileLock-prefix.pch"; sourceTree = "<group>"; };
+		49A1278E98DA8AA4021A074068AA6FAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AAA3B97BC3A7D8061A86C8C20BA7C22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E662D55FB5E570BAE63FD0EBB24FAF0 /* Pods-rotator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rotator-acknowledgements.plist"; sourceTree = "<group>"; };
+		516E1788C499E8D78B235A9CB6A1CF3C /* Pods_rotatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_rotatorUITests.framework; path = "Pods-rotatorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C13352AFD0526DB3C246154F152FAC /* Pods-rotator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-rotator-frameworks.sh"; sourceTree = "<group>"; };
+		60B426FA55503E43472B035B6C531EA4 /* Pods-rotator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rotator.release.xcconfig"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		65D983DBD96172C98435D646E5A8CCDB /* Pods-rotatorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rotatorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6C920C07421909AD3DB19F7DC3F6D1D3 /* Pods-rotator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-rotator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7053D52FFB8E223B920F5F609458E643 /* Pods-rotator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-rotator-dummy.m"; sourceTree = "<group>"; };
+		74D0CB7749E057B21F91C1AA0B8B790B /* Pods-rotatorTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-rotatorTests-resources.sh"; sourceTree = "<group>"; };
+		74D1F2188D2B060CE4B741AAA83BCE41 /* PasswordUIValidation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordUIValidation.swift; path = SmileLock/Classes/PasswordUIValidation.swift; sourceTree = "<group>"; };
+		74E2741A88AAAC61054C2512DEAA52E6 /* Pods-rotatorUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-rotatorUITests-resources.sh"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8262DB05B8E90E1212980E57CFE8589F /* Pods-rotatorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-rotatorUITests-dummy.m"; sourceTree = "<group>"; };
+		840FD65E5EC0D924FE070A158D2CC5B0 /* Pods-rotatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rotatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		85B5BA8D52B0719F9F54257B0607897C /* Pods-rotatorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-rotatorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99C0B939D5651050C195076275121651 /* SmileLock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmileLock-umbrella.h"; sourceTree = "<group>"; };
+		B8F1EA6701EF2AEFC5272CB9BB0D80BB /* Pods-rotatorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-rotatorTests.modulemap"; sourceTree = "<group>"; };
+		BA5A1D46DE29690FBE786FF1A1891737 /* Pods-rotatorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-rotatorUITests-frameworks.sh"; sourceTree = "<group>"; };
+		BB6E563C977A318DAC9DDDCC0ABF5C3E /* PasswordContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordContainerView.swift; path = SmileLock/Classes/PasswordContainerView.swift; sourceTree = "<group>"; };
+		C320D5C1F80F6B3566046D49AA13237E /* SmileLock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SmileLock-dummy.m"; sourceTree = "<group>"; };
+		C4484C37BAA1BF023FD9669791836228 /* Pods-rotator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-rotator-umbrella.h"; sourceTree = "<group>"; };
+		C48D163C3FD64DD4E4265DFC7BCD9AA8 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SmileLock/Assets/Assets.xcassets; sourceTree = "<group>"; };
+		DC5C75A145B512E131DAF451FF8E32F1 /* Pods-rotatorTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-rotatorTests-frameworks.sh"; sourceTree = "<group>"; };
+		E20432A65E853503C4FBABC693772A4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2175E4BA9276B56A027C465F1D56701 /* Pods-rotatorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-rotatorUITests-umbrella.h"; sourceTree = "<group>"; };
+		EE1C65B3FC93A865862BE48D4A89A852 /* PasswordInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordInputView.swift; path = SmileLock/Classes/PasswordInputView.swift; sourceTree = "<group>"; };
+		F22865117FEB8DCF04778A2833046144 /* Pods-rotator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-rotator-resources.sh"; sourceTree = "<group>"; };
+		F4675D48C6669D048D5052E3AA874A70 /* Pods-rotator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-rotator.modulemap"; sourceTree = "<group>"; };
+		F63D0F03EC5DACB131BAD875BF297A5A /* SmileLock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmileLock.xcconfig; sourceTree = "<group>"; };
+		FACFB17EC730C471F684592432FBE6B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD81167A42E499546C298B0D9084BEEA /* Pods-rotatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rotatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		FDD2486D43C0EC7AE0052F3D2DED2694 /* Pods-rotatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-rotatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		331D929C6A7C764CDF3DBAD767283A67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FB3E40FAEFED03BD8045863EFC9F49 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75B903F7108F762D23798C8528719731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA1DBD95241ECEC172B65885FD7B856 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78F264B4689E51A4A92254EEEA0F5DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05ADC73CADA7A560FB8043C6A282A8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7CF3BFF9373B37F779D0018B4DA902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97907AD747414310E99DDCAADFD51080 /* Foundation.framework in Frameworks */,
+				F906590AF620B06F2EC7B7D932FB1E5C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09BB6099FBD56F9074121B922642CD97 /* Pods-rotator */ = {
+			isa = PBXGroup;
+			children = (
+				E20432A65E853503C4FBABC693772A4E /* Info.plist */,
+				F4675D48C6669D048D5052E3AA874A70 /* Pods-rotator.modulemap */,
+				6C920C07421909AD3DB19F7DC3F6D1D3 /* Pods-rotator-acknowledgements.markdown */,
+				4E662D55FB5E570BAE63FD0EBB24FAF0 /* Pods-rotator-acknowledgements.plist */,
+				7053D52FFB8E223B920F5F609458E643 /* Pods-rotator-dummy.m */,
+				53C13352AFD0526DB3C246154F152FAC /* Pods-rotator-frameworks.sh */,
+				F22865117FEB8DCF04778A2833046144 /* Pods-rotator-resources.sh */,
+				C4484C37BAA1BF023FD9669791836228 /* Pods-rotator-umbrella.h */,
+				032A193934B902ACFE1EE72696427878 /* Pods-rotator.debug.xcconfig */,
+				60B426FA55503E43472B035B6C531EA4 /* Pods-rotator.release.xcconfig */,
+			);
+			name = "Pods-rotator";
+			path = "Target Support Files/Pods-rotator";
+			sourceTree = "<group>";
+		};
+		1EB9DC35E317C5D58CD6DA9147B299C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53563852C104E99720FE87DB25230899 /* SmileLock */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53563852C104E99720FE87DB25230899 /* SmileLock */ = {
+			isa = PBXGroup;
+			children = (
+				BB6E563C977A318DAC9DDDCC0ABF5C3E /* PasswordContainerView.swift */,
+				109A6029FE385EFFF1C874C0A2EC4F52 /* PasswordDotView.swift */,
+				EE1C65B3FC93A865862BE48D4A89A852 /* PasswordInputView.swift */,
+				74D1F2188D2B060CE4B741AAA83BCE41 /* PasswordUIValidation.swift */,
+				A52C35D0A57B0A32330DC032E723AAC6 /* Resources */,
+				7A851AFD50AABC1C59E1FFDE04C17DFF /* Support Files */,
+			);
+			name = SmileLock;
+			path = SmileLock;
+			sourceTree = "<group>";
+		};
+		54B7CC24C38293846ADB312F4A34BC02 /* Pods-rotatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				49A1278E98DA8AA4021A074068AA6FAE /* Info.plist */,
+				B8F1EA6701EF2AEFC5272CB9BB0D80BB /* Pods-rotatorTests.modulemap */,
+				30C3286B49FB7ED882BFAA381D3FDA62 /* Pods-rotatorTests-acknowledgements.markdown */,
+				85B5BA8D52B0719F9F54257B0607897C /* Pods-rotatorTests-acknowledgements.plist */,
+				1133AB678FDF55F7839D0C86288DC0AB /* Pods-rotatorTests-dummy.m */,
+				DC5C75A145B512E131DAF451FF8E32F1 /* Pods-rotatorTests-frameworks.sh */,
+				74D0CB7749E057B21F91C1AA0B8B790B /* Pods-rotatorTests-resources.sh */,
+				1183EC26E754D37B6454650865B15652 /* Pods-rotatorTests-umbrella.h */,
+				840FD65E5EC0D924FE070A158D2CC5B0 /* Pods-rotatorTests.debug.xcconfig */,
+				FD81167A42E499546C298B0D9084BEEA /* Pods-rotatorTests.release.xcconfig */,
+			);
+			name = "Pods-rotatorTests";
+			path = "Target Support Files/Pods-rotatorTests";
+			sourceTree = "<group>";
+		};
+		590BBA6C08CBE5B40FA64D134195D3B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				114F42510D7480EB5601D40DF7F6B4B1 /* Pods_rotator.framework */,
+				1FA27C45F913636105BAD88462C40DD3 /* Pods_rotatorTests.framework */,
+				516E1788C499E8D78B235A9CB6A1CF3C /* Pods_rotatorUITests.framework */,
+				28198CCE71D25E99FB735027AD81C138 /* SmileLock.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		595CBEC408B682DC9ACA904387CF7612 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09BB6099FBD56F9074121B922642CD97 /* Pods-rotator */,
+				54B7CC24C38293846ADB312F4A34BC02 /* Pods-rotatorTests */,
+				699419010D7C0DBA8876C5CD1BC1FF7E /* Pods-rotatorUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		699419010D7C0DBA8876C5CD1BC1FF7E /* Pods-rotatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AAA3B97BC3A7D8061A86C8C20BA7C22 /* Info.plist */,
+				47B75439A06E028AD74A746A4756E91B /* Pods-rotatorUITests.modulemap */,
+				1368E60A1C7171C37528324FF8DE22A1 /* Pods-rotatorUITests-acknowledgements.markdown */,
+				65D983DBD96172C98435D646E5A8CCDB /* Pods-rotatorUITests-acknowledgements.plist */,
+				8262DB05B8E90E1212980E57CFE8589F /* Pods-rotatorUITests-dummy.m */,
+				BA5A1D46DE29690FBE786FF1A1891737 /* Pods-rotatorUITests-frameworks.sh */,
+				74E2741A88AAAC61054C2512DEAA52E6 /* Pods-rotatorUITests-resources.sh */,
+				E2175E4BA9276B56A027C465F1D56701 /* Pods-rotatorUITests-umbrella.h */,
+				05D44D913012A2CB84E2E811C84D4C54 /* Pods-rotatorUITests.debug.xcconfig */,
+				FDD2486D43C0EC7AE0052F3D2DED2694 /* Pods-rotatorUITests.release.xcconfig */,
+			);
+			name = "Pods-rotatorUITests";
+			path = "Target Support Files/Pods-rotatorUITests";
+			sourceTree = "<group>";
+		};
+		7A851AFD50AABC1C59E1FFDE04C17DFF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FACFB17EC730C471F684592432FBE6B8 /* Info.plist */,
+				35026ED57EBB2D3AAC22026E2E689E1F /* SmileLock.modulemap */,
+				F63D0F03EC5DACB131BAD875BF297A5A /* SmileLock.xcconfig */,
+				C320D5C1F80F6B3566046D49AA13237E /* SmileLock-dummy.m */,
+				49793A8625E8CC1C1A888C5C767423F8 /* SmileLock-prefix.pch */,
+				99C0B939D5651050C195076275121651 /* SmileLock-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SmileLock";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				1EB9DC35E317C5D58CD6DA9147B299C7 /* Pods */,
+				590BBA6C08CBE5B40FA64D134195D3B4 /* Products */,
+				595CBEC408B682DC9ACA904387CF7612 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A52C35D0A57B0A32330DC032E723AAC6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C48D163C3FD64DD4E4265DFC7BCD9AA8 /* Assets.xcassets */,
+				26411E81AE9B887693AEE1120B268082 /* PasswordContainerView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		47C891AA5B73FEB8E559B89BBCD4B805 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85E51751ECA1400E370B6BBC83955DC /* Pods-rotator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACD6416E237AE85A014C6C3094A1E2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668A4BBBB1F1A92AB51F5E5E35E068C9 /* Pods-rotatorTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BF516B39A4B477624C568CBD8347EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA57DC8DA2700CB1B740951A8D2FA87B /* Pods-rotatorUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E159B558415AF869AE7E84A684EF9980 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD72425A8DEEF6A81407B9B83F081671 /* SmileLock-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4BB0389C6A8E08A7150310F7D4A5C8D9 /* SmileLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8D69150129C764AAF6B55E380B2C1FE /* Build configuration list for PBXNativeTarget "SmileLock" */;
+			buildPhases = (
+				A50157A8BAB82487F2C44E9D998FE596 /* Sources */,
+				FF7CF3BFF9373B37F779D0018B4DA902 /* Frameworks */,
+				A24F52B34EBFAF281D2F3245D9277D7B /* Resources */,
+				E159B558415AF869AE7E84A684EF9980 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmileLock;
+			productName = SmileLock;
+			productReference = 28198CCE71D25E99FB735027AD81C138 /* SmileLock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D5F0218514DFD20456BBBFD41F26D3FC /* Pods-rotator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9E225186005647109D475C878676860 /* Build configuration list for PBXNativeTarget "Pods-rotator" */;
+			buildPhases = (
+				EF6AAB1A0335061731E57D37933470DE /* Sources */,
+				D78F264B4689E51A4A92254EEEA0F5DC /* Frameworks */,
+				47C891AA5B73FEB8E559B89BBCD4B805 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD69EFB421EECF66D693A9F23705D6AE /* PBXTargetDependency */,
+			);
+			name = "Pods-rotator";
+			productName = "Pods-rotator";
+			productReference = 114F42510D7480EB5601D40DF7F6B4B1 /* Pods_rotator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E018CDFEA6CB620091CA1CCA3644F2F4 /* Pods-rotatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10ACB5D4FD5AE594D4660B906137542C /* Build configuration list for PBXNativeTarget "Pods-rotatorUITests" */;
+			buildPhases = (
+				733F6983C111B676F068C5250BE03696 /* Sources */,
+				331D929C6A7C764CDF3DBAD767283A67 /* Frameworks */,
+				B7BF516B39A4B477624C568CBD8347EE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-rotatorUITests";
+			productName = "Pods-rotatorUITests";
+			productReference = 516E1788C499E8D78B235A9CB6A1CF3C /* Pods_rotatorUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F76ADF5EE5D5674667BE57D35AD01C8A /* Pods-rotatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEEC17DA39C347C83015A5F4848D4A37 /* Build configuration list for PBXNativeTarget "Pods-rotatorTests" */;
+			buildPhases = (
+				4B144AF2570CD39F434D5F1B6F59CB05 /* Sources */,
+				75B903F7108F762D23798C8528719731 /* Frameworks */,
+				5ACD6416E237AE85A014C6C3094A1E2D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-rotatorTests";
+			productName = "Pods-rotatorTests";
+			productReference = 1FA27C45F913636105BAD88462C40DD3 /* Pods_rotatorTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 590BBA6C08CBE5B40FA64D134195D3B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5F0218514DFD20456BBBFD41F26D3FC /* Pods-rotator */,
+				F76ADF5EE5D5674667BE57D35AD01C8A /* Pods-rotatorTests */,
+				E018CDFEA6CB620091CA1CCA3644F2F4 /* Pods-rotatorUITests */,
+				4BB0389C6A8E08A7150310F7D4A5C8D9 /* SmileLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A24F52B34EBFAF281D2F3245D9277D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB392BD92F06BCE6D13647482EE7930 /* Assets.xcassets in Resources */,
+				CAAE738858DC0A6F529506BEB57571BA /* PasswordContainerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B144AF2570CD39F434D5F1B6F59CB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377921D105317E36F97BC06E7443C131 /* Pods-rotatorTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733F6983C111B676F068C5250BE03696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1CC67C8D9C87CCB041F7322BA831E8 /* Pods-rotatorUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50157A8BAB82487F2C44E9D998FE596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2FE2673870D4CF8E9ACB2DC5534794 /* PasswordContainerView.swift in Sources */,
+				887A8FD7C3833404E2917C8A592A3F28 /* PasswordDotView.swift in Sources */,
+				791CA76D370ABEDB73E865B0311E1EBF /* PasswordInputView.swift in Sources */,
+				CB11ABF0E297D8FC7497037FCC29BD58 /* PasswordUIValidation.swift in Sources */,
+				9E20C5DCC86B9F16094B4FA3C128185F /* SmileLock-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6AAB1A0335061731E57D37933470DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2BFB68FF8154DC30C93FCA252F53BB /* Pods-rotator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD69EFB421EECF66D693A9F23705D6AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmileLock;
+			target = 4BB0389C6A8E08A7150310F7D4A5C8D9 /* SmileLock */;
+			targetProxy = 9F8ECB2F87F9DC286EFD939FE8C990FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18AA2FF361046487EE12ACF4FFD1FC44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD2486D43C0EC7AE0052F3D2DED2694 /* Pods-rotatorUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-rotatorUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-rotatorUITests/Pods-rotatorUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_rotatorUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		905292EB4B1F21FAEAE7E688759772E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F63D0F03EC5DACB131BAD875BF297A5A /* SmileLock.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SmileLock/SmileLock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmileLock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SmileLock/SmileLock.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SmileLock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94A50091FD98778B0E86626DDC47C081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 840FD65E5EC0D924FE070A158D2CC5B0 /* Pods-rotatorTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-rotatorTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-rotatorTests/Pods-rotatorTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_rotatorTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9EBEABA3C818F8274F87B3352C44C62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD81167A42E499546C298B0D9084BEEA /* Pods-rotatorTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-rotatorTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-rotatorTests/Pods-rotatorTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_rotatorTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A21218D6B95E95273B9D694A2132E224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D44D913012A2CB84E2E811C84D4C54 /* Pods-rotatorUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-rotatorUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-rotatorUITests/Pods-rotatorUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_rotatorUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6C19404E174E842B3E166EA921BACF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60B426FA55503E43472B035B6C531EA4 /* Pods-rotator.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-rotator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-rotator/Pods-rotator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_rotator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE6A5D366134782A0B25D99634B55911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 032A193934B902ACFE1EE72696427878 /* Pods-rotator.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-rotator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-rotator/Pods-rotator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_rotator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E8B3354F71E5FA017C0A6E57F3FABE49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F63D0F03EC5DACB131BAD875BF297A5A /* SmileLock.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SmileLock/SmileLock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmileLock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SmileLock/SmileLock.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SmileLock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10ACB5D4FD5AE594D4660B906137542C /* Build configuration list for PBXNativeTarget "Pods-rotatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21218D6B95E95273B9D694A2132E224 /* Debug */,
+				18AA2FF361046487EE12ACF4FFD1FC44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9E225186005647109D475C878676860 /* Build configuration list for PBXNativeTarget "Pods-rotator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6A5D366134782A0B25D99634B55911 /* Debug */,
+				B6C19404E174E842B3E166EA921BACF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEEC17DA39C347C83015A5F4848D4A37 /* Build configuration list for PBXNativeTarget "Pods-rotatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A50091FD98778B0E86626DDC47C081 /* Debug */,
+				9EBEABA3C818F8274F87B3352C44C62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8D69150129C764AAF6B55E380B2C1FE /* Build configuration list for PBXNativeTarget "SmileLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8B3354F71E5FA017C0A6E57F3FABE49 /* Debug */,
+				905292EB4B1F21FAEAE7E688759772E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

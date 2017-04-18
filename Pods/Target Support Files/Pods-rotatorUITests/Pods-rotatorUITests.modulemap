@@ -1,0 +1,6 @@
+framework module Pods_rotatorUITests {
+  umbrella header "Pods-rotatorUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
